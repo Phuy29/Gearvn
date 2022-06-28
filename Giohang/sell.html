@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="sell.css">
+
+</head>
+
+<body>
+	<div class="shopping">
+		<article>
+			<h1 class="shopping-heading">Shopping cart</h1>
+			<!-- <div class="price">
+				<select name="price" id="" onchange="filterProduct(this)">
+					<option value="0">Chọn mức giá</option>
+					<option value="1">Dưới 100</option>
+					<option value="2">Từ 100 đến 500</option>
+					<option value="3">Trên 500</option>
+				</select>
+			</div> -->
+			<div class="self">
+				<table id="bang">
+					<thead>
+						<tr>
+							<td><input type="checkbox" onchange="checkAll(this)"></td>
+							<th>Hàng hóa</th>
+							<th>Đơn giá</th>
+							<th>Số lượng</th>
+							<th>Thành tiền</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>ASUS TUF Gaming F15</td>
+							<td>1500</td>
+							<td><input type="number" value="0" min="0" step="1" disabled></td>
+							<th></th>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Acer Nitro 5</td>
+							<td>2000</td>
+							<td><input type="number" value="0" min="0" step="1" disabled></td>
+							<th></th>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>MSI Katana GF66</td>
+							<td>1000</td>
+							<td><input type="number" value="0" min="0" step="1" disabled></td>
+							<th></th>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Acer Nitro 5 Eagle</td>
+							<td>3000</td>
+							<td><input type="number" value="0" min="0" step="1" disabled></td>
+							<th></th>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="4">Tổng</th>
+							<th id="tongtien"></th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</article>
+	</div>
+	<script src="sell.js"></script>
+</body>
+
+</html>

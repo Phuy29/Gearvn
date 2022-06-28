@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #b4adfd, #343384);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px 0;
+}
+
+.shopping {
+  padding: 60px 45px;
+  width: 800px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.shopping-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #373941;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+article {
+  width: 100%;
+  padding: 40px;
+}
+
+.self {
+  margin-top: 15px;
+  width: 650px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 20%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 40%;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.473);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 25px;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}

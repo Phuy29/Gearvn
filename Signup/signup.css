@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #b4adfd, #343384);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px 0;
+}
+.signup {
+  padding: 20px 45px;
+  background-color: #fff;
+  max-width: 600px;
+  border-radius: 20px;
+}
+.signup-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #373941;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.from-submit {
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  border: 0;
+  display: block;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #343384;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 5px 10px 0 rgba(52, 51, 132, 0.5);
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.form-label,
+.form-message {
+  text-align: left;
+}
+
+.form-label {
+  font-weight: 700;
+  padding-bottom: 6px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.form-control {
+  display: block;
+  width: 350px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f2f3f5;
+  outline: none;
+  border: 0;
+  margin-top: 10px;
+}
+
+.form-control:hover {
+  border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+  border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+  color: #f33a58;
+}
+
+.form-message {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 0 0;
+}
+
+.form-submit {
+  outline: none;
+  background-color: #1dbfaf;
+  margin-top: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #1ac7b6;
+}
+
+.spacer {
+  margin-top: 36px;
+}
